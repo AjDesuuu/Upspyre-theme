@@ -1,21 +1,34 @@
 {
-  "name": "upspyre-theme",
-  "displayName": "upspyre-theme",
-  "description": "A custom color theme for upspyre",
-  "version": "0.0.1",
+  "name": "upspyre-language",
+  "displayName": "Upspyre Language Support",
+  "description": "Syntax highlighting for Upspyre files",
+  "version": "0.0.2",
+  "publisher": "AaronJetroAlvarez",
   "engines": {
-    "vscode": "^1.97.0"
+      "vscode": "^1.97.0"
   },
   "categories": [
-    "Themes"
+      "Programming Languages"
   ],
   "contributes": {
-    "themes": [
-      {
-        "label": "Argentdark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Argentdark-color-theme.json"
-      }
-    ]
+      "languages": [
+          {
+              "id": "upspyre",
+              "aliases": ["Upspyre", "upspyre"],
+              "extensions": [".up"],
+              "configuration": "./language-configuration.json"
+          }
+      ],
+      "grammars": [
+          {
+              "language": "upspyre",
+              "scopeName": "source.upspyre",
+              "path": "./syntaxes/upspyre.tmLanguage.json"
+          }
+      ]
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/AjDesuuu/Upspyre-Programming-Language"
   }
 }
