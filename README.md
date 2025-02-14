@@ -1,16 +1,12 @@
-# upspyre-theme README
+# Upspyre Language Support
 
-## Working with Markdown
+This VS Code extension adds syntax highlighting for `.up` files used in the Upspyre language.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Installation
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+1. Install the extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=AaronJetroAlvarez.upspyre).
+2. Open a `.up` file and enjoy syntax highlighting!
 
-## For more information
+## Contributing
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Feel free to open issues or submit pull requests on [GitHub](https://github.com/AjDesuuu/Upspyre-theme).
