@@ -1,8 +1,8 @@
 {
-  "name": "upspyre-language",
-  "displayName": "Upspyre Language Support",
+  "name": "upspyre",
+  "displayName": "upspyre-syntax",
   "description": "Syntax highlighting for Upspyre files",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "AaronJetroAlvarez",
   "engines": {
     "vscode": "^1.97.0"
