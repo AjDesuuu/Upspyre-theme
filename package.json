@@ -5,30 +5,35 @@
   "version": "0.0.2",
   "publisher": "AaronJetroAlvarez",
   "engines": {
-      "vscode": "^1.97.0"
+    "vscode": "^1.97.0"
   },
   "categories": [
-      "Programming Languages"
+    "Programming Languages"
   ],
   "contributes": {
-      "languages": [
-          {
-              "id": "upspyre",
-              "aliases": ["Upspyre", "upspyre"],
-              "extensions": [".up"],
-              "configuration": "./language-configuration.json"
-          }
-      ],
-      "grammars": [
-          {
-              "language": "upspyre",
-              "scopeName": "source.upspyre",
-              "path": "./syntaxes/upspyre.tmLanguage.json"
-          }
-      ]
+    "languages": [
+      {
+        "id": "upspyre",
+        "aliases": [
+          "Upspyre",
+          "upspyre"
+        ],
+        "extensions": [
+          ".up"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "upspyre",
+        "scopeName": "source.upspyre",
+        "path": "./syntaxes/upspyre.tmLanguage.json"
+      }
+    ]
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/AjDesuuu/Upspyre-theme"
+    "type": "git",
+    "url": "https://github.com/AjDesuuu/Upspyre-theme"
   }
 }
